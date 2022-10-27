@@ -1,0 +1,88 @@
+[22-Oct-2022 22:44:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function greet(), 1 passed in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 8 and exactly 2 expected in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php:4
+Stack trace:
+#0 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php(8): greet('john')
+#1 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\AaronS...')
+#2 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-blog-header.php(19): require_once('C:\\Users\\AaronS...')
+#3 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php(17): require('C:\\Users\\AaronS...')
+#4 {main}
+  thrown in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 4
+[22-Oct-2022 22:44:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function greet(), 1 passed in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 8 and exactly 2 expected in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php:4
+Stack trace:
+#0 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php(8): greet('john')
+#1 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\AaronS...')
+#2 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-blog-header.php(19): require_once('C:\\Users\\AaronS...')
+#3 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php(17): require('C:\\Users\\AaronS...')
+#4 {main}
+  thrown in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 4
+[22-Oct-2022 22:44:33 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function greet(), 1 passed in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 8 and exactly 2 expected in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php:4
+Stack trace:
+#0 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php(8): greet('john')
+#1 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\AaronS...')
+#2 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-blog-header.php(19): require_once('C:\\Users\\AaronS...')
+#3 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php(17): require('C:\\Users\\AaronS...')
+#4 {main}
+  thrown in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 4
+[22-Oct-2022 22:44:42 UTC] PHP Parse error:  syntax error, unexpected '$color' (T_VARIABLE), expecting ')' in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 4
+[22-Oct-2022 22:57:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function tagline() in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php:13
+Stack trace:
+#0 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-blog-header.php(19): require_once('C:\\Users\\AaronS...')
+#2 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php(17): require('C:\\Users\\AaronS...')
+#3 {main}
+  thrown in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 13
+[22-Oct-2022 22:58:31 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 12
+[22-Oct-2022 23:12:42 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 7
+[22-Oct-2022 23:13:56 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 7
+[22-Oct-2022 23:13:56 UTC] PHP Stack trace:
+[22-Oct-2022 23:13:56 UTC] PHP   1. {main}() C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php:0
+[22-Oct-2022 23:13:56 UTC] PHP   2. require() C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php:17
+[22-Oct-2022 23:13:56 UTC] PHP   3. require_once() C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-blog-header.php:19
+[22-Oct-2022 23:13:56 UTC] PHP   4. include() C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\template-loader.php:106
+[22-Oct-2022 23:13:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 7
+[22-Oct-2022 23:13:57 UTC] PHP Stack trace:
+[22-Oct-2022 23:13:57 UTC] PHP   1. {main}() C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php:0
+[22-Oct-2022 23:13:57 UTC] PHP   2. require() C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php:17
+[22-Oct-2022 23:13:57 UTC] PHP   3. require_once() C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-blog-header.php:19
+[22-Oct-2022 23:13:57 UTC] PHP   4. include() C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\template-loader.php:106
+[22-Oct-2022 23:26:01 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 5
+[22-Oct-2022 23:26:02 UTC] PHP Parse error:  syntax error, unexpected '?>' in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 5
+[27-Oct-2022 10:44:23 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category(), 0 passed in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\single.php on line 7 and at least 1 expected in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\category.php:91
+Stack trace:
+#0 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\single.php(7): get_category()
+#1 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\AaronS...')
+#2 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-blog-header.php(19): require_once('C:\\Users\\AaronS...')
+#3 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php(17): require('C:\\Users\\AaronS...')
+#4 {main}
+  thrown in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\category.php on line 91
+[27-Oct-2022 10:44:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category(), 0 passed in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\single.php on line 7 and at least 1 expected in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\category.php:91
+Stack trace:
+#0 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\single.php(7): get_category()
+#1 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\AaronS...')
+#2 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-blog-header.php(19): require_once('C:\\Users\\AaronS...')
+#3 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php(17): require('C:\\Users\\AaronS...')
+#4 {main}
+  thrown in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\category.php on line 91
+[27-Oct-2022 10:48:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category(), 0 passed in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php on line 9 and at least 1 expected in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\category.php:91
+Stack trace:
+#0 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\index.php(9): get_category()
+#1 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\AaronS...')
+#2 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-blog-header.php(19): require_once('C:\\Users\\AaronS...')
+#3 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php(17): require('C:\\Users\\AaronS...')
+#4 {main}
+  thrown in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\category.php on line 91
+[27-Oct-2022 10:55:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enque_style_sheet() in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\functions.php:1
+Stack trace:
+#0 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-settings.php(566): include()
+#1 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-config.php(91): require_once('C:\\Users\\AaronS...')
+#2 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-load.php(50): require_once('C:\\Users\\AaronS...')
+#3 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\AaronS...')
+#4 {main}
+  thrown in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\functions.php on line 1
+[27-Oct-2022 10:57:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enque_style_sheet() in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\functions.php:1
+Stack trace:
+#0 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-settings.php(566): include()
+#1 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-config.php(91): require_once('C:\\Users\\AaronS...')
+#2 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-load.php(50): require_once('C:\\Users\\AaronS...')
+#3 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\AaronS...')
+#4 {main}
+  thrown in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\functions.php on line 1
