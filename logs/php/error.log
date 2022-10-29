@@ -86,3 +86,10 @@ Stack trace:
 #3 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\AaronS...')
 #4 {main}
   thrown in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\functions.php on line 1
+[27-Oct-2022 22:36:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\page.php:10
+Stack trace:
+#0 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-blog-header.php(19): require_once('C:\\Users\\AaronS...')
+#2 C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\index.php(17): require('C:\\Users\\AaronS...')
+#3 {main}
+  thrown in C:\Users\AaronStafford\Local Sites\wordpresscourse\app\public\wp-content\themes\fictional-university-theme\page.php on line 10
